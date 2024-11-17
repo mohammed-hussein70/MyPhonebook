@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+.myInput {
+  background-image: url("searchIcon.png");
+  background-repeat: no-repeat;
+  padding: 12px;
+  padding-left: 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+  background-position: 10px center;
+  width: 50%;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 50%;
+}
+li {
+  border: 1px solid #ddd;
+  margin-top: -1px;
+  background-color: #f1f1f1;
+  padding: 12px;
+  text-decoration: none;
+  display: block;
+  cursor: pointer;
+  &:hover {
+    background-color: #ddd;
+  }
+}
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-weight: 500;
+}
